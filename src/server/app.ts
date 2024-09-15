@@ -13,5 +13,5 @@ app.use(cors());
 app.use(morgan('dev'));
 
 app.get('/api/mensagem', (req, res) => {
-    res.send({ express: 'Hello from express'});
+    res.send({ express: 'Express funcionando'});
 });
