@@ -7,15 +7,21 @@
 ## Como instalar 💡
 - Clone o projeto
 - Instale as dependências com ```npm i```
-- 
-- 
+- Execute com o projeto com ```npm run dev```
 
 ## Pacotes Necessários 📦
 ```
 npm i express
-npm i npx
-npm i 
+npm i cors
+npm i -D typescript
+npm i morgan
+npm i -D @types/express
+npm i -D @types/cors
+npm i -D @types/morgan
+npm i nodemon
+npm i tsx
+
 ```
 
-## Função de cada um dos pacotes 📋
-<table><thead><tr><th>Pacote</th><th>Descrição</th></tr></thead><tbody><tr><td><code>express</code></td><td>Framework web rápido, flexível e minimalista para Node.js.</td></tr><tr><td><code>mongodb</code></td><td>Driver oficial do MongoDB para Node.js.</td></tr><tr><td><code>dotenv</code></td><td>Carrega variáveis ​​de ambiente do arquivo .env para o processo.env.</td></tr><tr><td><code>express-validator</code></td><td>Middleware para validação de dados de entrada em solicitações HTTP.</td></tr><tr><td><code>PM2</code> (dev)</td><td>Ferramenta que executa um servidor através de processos do sistema operacional.</td></tr></tbody></table>
+## Função de cada ferramenta utilizada 📋
+<table><thead><tr><th>Pacote</th><th>Descrição</th></tr></thead><tbody><tr><td><code>express</code></td><td>Framework web rápido, flexível e minimalista para Node.js.</td></tr><tr><td><code>nextjs</code></td><td>Estrutura de código em react que permite geração de sites estáticos para aplicativos.</td></tr><tr><td><code>tsx</code></td><td>Executa os arquivos typescript no NodeJS.</td></tr><tr><td><code>tailwindcss</code></td><td>Framework CSS que fornece várias classes utilitárias.</td></tr></tbody></table>
