@@ -2,6 +2,8 @@ import express, {Express} from "express";
 import cors, {CorsOptions} from 'cors';
 import morgan, {Morgan} from 'morgan';
 
+import "reflect-metadata";
+
 import { router } from "./routes";
 
 export const app = express();
